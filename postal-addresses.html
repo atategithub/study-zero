@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<style>
+  .page {
+    width: 21cm;
+    min-height: 5cm;
+    padding: 0.05cm;
+    margin: auto;
+    background: white;
+  }
+
+  .box {
+    display: block;
+    box-sizing: border-box;
+    width: 100mm;
+    height: 50mm;
+    float: left;
+    text-align: left;
+    vertical-align: center;
+  }
+
+  @page {
+    PageSize: "Envelope DL";
+
+  }
+</style>
+  <address>
+    <h4><strong>Mary Poppins</strong></h4>
+    234 W Boston Blvd.,<br>
+    Detroit MI <br>
+    48206
+  </address>
+  <style>
+        .page {
+          width: 21cm;
+          min-height: 5cm;
+          padding: 0.05cm;
+          margin: auto;
+          background: white;
+        }
+         .box {
+          display: block;
+          box-sizing: border-box;
+          width: 100mm;
+          height: 50mm;
+          float: center;
+          text-align: left;
+          vertical-align: center;
+        }
+    
+        @page {
+          PageSize:"Envelope DL";
+    
+        }
+      </style>
+    
+    <body>
+      <div class="page">
+        <div class="box">
+          <h4>Mr. Test Organic</h4>
+          <p>235 Arden Park Blvd</p>
+          <p>Detroit, MI 48202</p>
+        </div>
+      </div>
+    </body>
+    
+    </html>
